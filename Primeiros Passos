@@ -1,0 +1,15 @@
+Para iniciar este curso vamos utilizar o Google Colab
+Entrando no Google Colab voce vai fazer o update do arquivo que vou deixar neste repositorio
+Uma observação importante e que para este curso voce vai precisar ter uma pequena noção de programação de preferencia o python
+1) Assim que baixar o arquivo vai abrir ele no google colab 
+2) Depois de aberto voce deve conferir qual versao do python o arquivo esta usando 
+3) Conferindo isto pode digitar na parte que esta escrito 'Trabalhando com arrays Numpy'
+4) Começa digitando o codigo
+    import numpy as np // vai importa a biblioteca e abreviar para np quando for chamar 
+5) Feito isto pode importa todos os arquivos txt do arquivo estes arquivos sao tabelas de carros contendo ano, preço, km corridos etc...
+6) Agora vamos importar estas listas para fazer algumas operações
+    km = hp.loadtxt('carros-km.txt') //importamos a lista de km percorrido por todos os carros 
+    anos = hp.loadtxt('corros-anos.txt', dtype =int) //importamos os anos dos carros e definimos como uma variavel int
+ 
+ 
+  Por fim esta foi a primeira aula de introdução ao Data Science utilizando o Python
